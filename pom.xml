@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.ripple</groupId>
     <artifactId>ripple-lib-java</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.1-dsx-SNAPSHOT</version>
     <packaging>pom</packaging>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -39,9 +39,6 @@
     </build>
     <modules>
         <module>ripple-core</module>
-        <module>ripple-client</module>
-        <module>ripple-client-transports</module>
-        <module>ripple-examples</module>
         <module>ripple-bouncycastle</module>
     </modules>
     <dependencies>
@@ -64,4 +61,15 @@
             </snapshots>
         </repository>
     </repositories>
+
+    <distributionManagement>
+        <snapshotRepository>
+            <id>nexus-snapshot</id>
+            <url>https://nexus.dsx.cool/repository/maven-snapshots/</url>
+        </snapshotRepository>
+        <repository>
+            <id>nexus-release</id>
+            <url>https://nexus.dsx.cool/repository/maven-releases/</url>
+        </repository>
+    </distributionManagement>
 </project>

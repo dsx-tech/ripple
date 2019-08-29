@@ -6,11 +6,10 @@
     <parent>
         <groupId>com.ripple</groupId>
         <artifactId>ripple-lib-java</artifactId>
-        <version>0.0.1-SNAPSHOT</version>
+        <version>0.0.1-dsx-SNAPSHOT</version>
     </parent>
-    <groupId>com.ripple</groupId>
     <artifactId>ripple-core</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.1-dsx-SNAPSHOT</version>
     <name>ripple-core</name>
     <url>http://maven.apache.org</url>
     <properties>
@@ -20,7 +19,7 @@
         <dependency>
             <groupId>com.ripple</groupId>
             <artifactId>ripple-bouncycastle</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
+            <version>0.0.1-dsx-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>org.json</groupId>
