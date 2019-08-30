@@ -4,7 +4,7 @@
     <groupId>com.ripple</groupId>
     <artifactId>ripple-lib-java</artifactId>
     <version>0.0.1-dsx-SNAPSHOT</version>
-    <packaging>pom</packaging>
+    <packaging>jar</packaging>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
