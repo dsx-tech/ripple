@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.ripple</groupId>
     <artifactId>ripple-lib-java</artifactId>
-    <version>0.0.1-dsx-SNAPSHOT</version>
+    <version>0.0.1-rc-dsx</version>
     <packaging>pom</packaging>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
